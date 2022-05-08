@@ -57,7 +57,7 @@ rpcuser=MMyw8qFmVbsttGuPD787oLvmb4kPr796Yx
 rpcpassword=c=MBRO
 rpcconnect=127.0.0.1
 rpcallowip=127.0.0.1
-addnode=51.195.249.132
+addnode=51.77.48.45
 addnode=135.125.225.55
 CONFIG
 
