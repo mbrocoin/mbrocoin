@@ -23,7 +23,8 @@ sed -i 's/__atomic_compare_exchange/__atomic_compare_exchange_db/g' db-4.8.30.NC
 
 # Install the repository ppa:bitcoin/bitcoin
 sudo apt-get install software-properties-common -y &&
-sudo apt-get update -y &&
+add-apt-repository -y ppa:luke-jr/bitcoincore &&
+apt-get update -y && apt-get upgrade -y &&
 
 cd ~ 
 cd mbrocoin
